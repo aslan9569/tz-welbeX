@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.logo {
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Supermercado One', cursive;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+    width: 180px;
+    padding: 0;
+    justify-content: space-between;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header ul li:hover {
+    cursor: pointer;
+    box-shadow: 0px 2px 4px #E9E9E9;
+}
+a.active {
+    box-shadow: 0px 2px 4px #E9E9E9;
+}
+

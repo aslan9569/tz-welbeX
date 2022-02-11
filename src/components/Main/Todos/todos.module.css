@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+}
+.card {
+    width: 80%;
+    margin: auto;
+}
+.loader {
+    margin: auto;
+    margin-top: 50%;
+}
+.search {
+    width: 90%;
+    margin: auto;
+}
+.search input {
+    width: 100%;
+    margin-top: 10px;
+    outline: none;
+    height: 20px;
+    font-size: 18px;
+    padding-left: 10px;
+}
